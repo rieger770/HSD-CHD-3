@@ -1,14 +1,3 @@
--------------------------------------------------------------------------------
--- Title : FeedbackMux
--------------------------------------------------------------------------------
--- Description:
--- Feedback multiplexer (multiplexer latch) with models for delay for each
--- single gate. Implementation with ALL prime implicands of the function:
--- The third prime implicand (consensus term iD and Yc) covers the critical
--- transition iEn 1 -> 0 while iD = 1 and Q = 1. Therefore a single input
--- change (Einkomponentenuebergang) can no longer cause a static logic hazard.
--------------------------------------------------------------------------------
-
 architecture Hazardfree of FeedbackMux is
 
   signal Yc, Yn                   : std_ulogic;
