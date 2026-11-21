@@ -98,5 +98,13 @@ Ja, für Einkomponentenübergänge. Auch mit den Verzögerungszeiten, die bei Pr
 Das gilt aber nur, solange sich nur ein Eingang ändert. Ändert sich D (fast) gleichzeitig mit En (Mehrkomponentenübergang), ändert sich auch Impl3 und die Absicherung fällt weg -> Funktions-Hazard. Außerdem muss D lange genug vor der fallenden Flanke von En stabil sein, damit Yc und Impl3 schon 1 sind. Das entspricht der Setup bzw. Hold-Zeit des Latches.
 
 
-### Ausgabe 2
+### Aufgabe 2: Mehrkomponentenübergang → Funktions-Hazard → Fehlfunktion — Setup- und Hold-Zeiten
+
+#### Welcher Zusammenhang besteht zwischen der Verletzung der Setup- und Hold-Zeit und Mehrkomponentenübergängen?
+Wird die Setup- oder Hold-Zeit verletzt, ändert sich D zu knapp vor bzw. nach der fallenden Flanke von En. Es ändern sich also (fast) gleichzeitig zwei Eingänge -> Mehrkomponentenübergang. Der 3. Primimplikant Impl3 = D and Yc hilft hier nicht mehr, weil sich D selbst ändert und Impl3 damit auch wegfällt -> Funktions-Hazard.
+
+#### Handelte es sich beim kritischen Übergang aus Aufgabe 1 um einen Mehrkomponentenübergang?
+Nein. Bei 240 ns hat sich nur En geändert, D war schon 30 ns lang stabil auf 1. Es war ein Einkomponentenübergang -> Logik-Hazard, der mit Impl3 beseitigt werden kann.
+
+
 

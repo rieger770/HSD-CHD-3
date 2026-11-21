@@ -10,32 +10,54 @@ z2
 cModel Technology
 Z0 dC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/sim
 Efeedbackmux
-Z1 w1795281141
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 39
-R0
-8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd
-FC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd
+w1795281141
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 45
+Z3 dc:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/sim
+8../src/FeedbackMux-e.vhd
+F../src/FeedbackMux-e.vhd
 l0
 L18 1
-V?U2?2IkCJPng8Q4Wc3a`W2
+VSoP^@Rm0W0B0bX@X]_cKB2
 !s100 QW[YXJPMa]3fi8EZDKc^Z0
 Z4 OV;C;2020.1;71
 32
-Z5 !s110 1795285945
+Z5 !s110 1795288079
 !i10b 1
-Z6 !s108 1795285945.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd|
-!s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd|
+Z6 !s108 1795288079.000000
+!s90 -2002|-explicit|../src/FeedbackMux-e.vhd|
+!s107 ../src/FeedbackMux-e.vhd|
 !i113 1
-Z7 o-work work -2002 -explicit
+Z7 o-2002 -explicit
 Z8 tExplicit 1 CvgOpt 0
+Ahazardfree
+w1795286304
+R1
+R2
+Z9 DEx4 work 11 feedbackmux 0 22 SoP^@Rm0W0B0bX@X]_cKB2
+!i122 46
+8../src/FeedbackMux-Hazardfree-a.vhd
+F../src/FeedbackMux-Hazardfree-a.vhd
+l6
+L1 31
+V61UJ;k6G:Bb<eGC;h@oKO0
+!s100 `IflS[8DOTmCBOUUzM4fE2
+R4
+32
+R5
+!i10b 1
+R6
+!s90 -2002|-explicit|../src/FeedbackMux-Hazardfree-a.vhd|
+!s107 ../src/FeedbackMux-Hazardfree-a.vhd|
+!i113 1
+R7
+R8
 Aprimimp
 w1795285935
+R1
 R2
-R3
-Z9 DEx4 work 11 feedbackmux 0 22 ?U2?2IkCJPng8Q4Wc3a`W2
+Z10 DEx4 work 11 feedbackmux 0 22 ?U2?2IkCJPng8Q4Wc3a`W2
 !i122 40
 8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd
 FC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd
@@ -45,39 +67,19 @@ VR89Tjm^^C00CHGEFQzzmO3
 !s100 EYE4:m2<6TafMl?=AHWC92
 R4
 32
-R5
+Z11 !s110 1795285945
 !i10b 1
-R6
+Z12 !s108 1795285945.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd|
 !s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd|
 !i113 1
-R7
+Z13 o-work work -2002 -explicit
 R8
-Ahazardfree
-R2
-R3
-R9
-!i122 29
-8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-Hazardfree-a.vhd
-FC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-Hazardfree-a.vhd
-l17
-L12 31
-V5Qa@7<1;I^=Hhk]n78jLN1
-!s100 I2`>@WM2fVGz;zOnTXkhW1
-R4
-32
-!s110 1795281413
-!i10b 1
-!s108 1795281413.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-Hazardfree-a.vhd|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd|
-!s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-PrimImp-a.vhd|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-Hazardfree-a.vhd|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/FeedbackMux-e.vhd|
-!i113 1
-R7
-R8
+R0
 Etbfeedbackmux
-Z10 w1795281142
+Z14 w1795281142
+R1
 R2
-R3
 !i122 40
 R0
 8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-e.vhd
@@ -88,33 +90,78 @@ Vo688[DT]cdF=gOhiDL2S21
 !s100 H1VK1E3U07XIb?3L;@3k^2
 R4
 32
-R5
+R11
 !i10b 1
-R6
+R12
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-e.vhd|
 !s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-e.vhd|
 !i113 1
-R7
+R13
 R8
 Abhv
-R9
+R10
+R1
 R2
-R3
-Z11 DEx4 work 13 tbfeedbackmux 0 22 o688[DT]cdF=gOhiDL2S21
+DEx4 work 13 tbfeedbackmux 0 22 o688[DT]cdF=gOhiDL2S21
 !i122 41
-Z12 8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd
-Z13 FC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd
+8C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd
+FC:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd
 l7
-Z14 L1 55
-Z15 VoDg;RRiZJk^O^BzB=2b;>0
-Z16 !s100 4S[o@o`ZFEZP1XSA9K1hQ0
+L1 55
+VoDg;RRiZJk^O^BzB=2b;>0
+!s100 4S[o@o`ZFEZP1XSA9K1hQ0
 R4
 32
 !s110 1795285946
 !i10b 1
+R12
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd|
+!s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd|
+!i113 1
+R13
+R8
+Etbfeedbackmuxsetuphold
+w1795287735
+R1
+R2
+!i122 46
+R3
+8../src/TbFeedbackMuxSetupHold-e.vhd
+F../src/TbFeedbackMuxSetupHold-e.vhd
+l0
+L4 1
+VhmZka[1BJebP^@A2QO2480
+!s100 QXFDn]L7]oJzTo;GiF5^F3
+R4
+32
+R5
+!i10b 1
 R6
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd|
-Z18 !s107 C:/native/HSD-CHD-3/Uebung05/unitFeedbackMux/src/TbFeedbackMux-a.vhd|
+!s90 -2002|-explicit|../src/TbFeedbackMuxSetupHold-e.vhd|
+!s107 ../src/TbFeedbackMuxSetupHold-e.vhd|
+!i113 1
+R7
+R8
+Abhv
+w1795288077
+R9
+R1
+R2
+Z15 DEx4 work 22 tbfeedbackmuxsetuphold 0 22 hmZka[1BJebP^@A2QO2480
+!i122 47
+Z16 8../src/TbFeedbackMuxSetupHold-a.vhd
+Z17 F../src/TbFeedbackMuxSetupHold-a.vhd
+l11
+L5 52
+V`Pf]?@5e1]FYMY0LEzF`D3
+!s100 E@=DbE_j9]12c7I6jlj`92
+R4
+32
+R5
+!i10b 1
+R6
+Z18 !s90 -2002|-explicit|../src/TbFeedbackMuxSetupHold-a.vhd|
+Z19 !s107 ../src/TbFeedbackMuxSetupHold-a.vhd|
 !i113 1
 R7
 R8
